@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@100;300;500;700;900&family=Raleway:wght@100;300;500;700&family=Roboto:wght@100;300;400;700&display=swap");
+:root {
+  --poppins: "Poppins", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --Pink: #ff52bf;
+  --Light-Pink: #ff8fd8;
+  --Light-Red: #ff4242;
+  --Very-Dark-Cyan: #00252e;
+  --Very-Pale-Blue: #f5faff;
+  --Padding-Container: 5rem 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: var(--Light-Pink);
+  cursor: pointer;
+  font-family: var(--open-sans);
+}
+p {
+  font-family: var(--open-sans);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--poppins);
+}
+
+.hero {
+  position: relative;
+}
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1440px;
+}
+.hero__nav {
+  padding-top: 1.6rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__navimg {
+  width: 5rem;
+}
+.hero__navbtn {
+  font-size: 0.6rem;
+  color: var(--Light-Pink);
+  padding: 5px 17px;
+  border: 1px solid;
+  border-radius: 13px;
+  box-shadow: 0px 0px 4px;
+  font-weight: 600;
+}
+.hero__text {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  text-align: center;
+  line-height: 1.5;
+}
+.hero__title {
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+}
+.hero__paragraph {
+  padding-bottom: 1.5rem;
+  font-size: 0.75rem;
+}
+.hero__bottom {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--Very-Pale-Blue);
+  background-color: var(--Pink);
+  padding: 15px 45px;
+  border-radius: 31px;
+}
+
+.hero__img {
+  display: block;
+  width: 100%;
+  padding: 6rem 0.5rem;
+  max-width: 1000px;
+}
+.hero__rating {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 7rem;
+}
+.hero__ratingimg {
+  width: 2rem;
+}
+.hero__ratingnum {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.hero__ratingparagraph {
+  font-size: 0.8rem;
+}
+
+.main__services {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--Very-Pale-Blue);
+  text-align: center;
+  padding-top: 4rem;
+}
+.main__servicesimg {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+}
+.main__servicestitle {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 4rem 0 1rem;
+}
+.main__servicesparagraph {
+  width: 16rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+.main__services--white {
+  position: relative;
+  background-color: white;
+  padding: 10rem 0;
+}
+.footer__section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Very-Dark-Cyan);
+  color: #fff;
+}
+.footer__text {
+  padding-top: 3rem;
+}
+.footer__title {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+.footer__paragraph {
+  font-size: 0.73rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+.footer__form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-family: var(--open-sans);
+  font-weight: 600;
+  padding: 10px 2px;
+  border-radius: 8px;
+}
+.footer__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-family: var(--open-sans);
+  padding: 13px 45px;
+  font-weight: 600;
+  border-radius: 6px;
+  color: #fff;
+  background-color: var(--Pink);
+}
+.footer__btn:hover {
+  background-color: var(--Light-Pink);
+}
+.footer__img {
+  width: 10rem;
+}
+.footer__contacts {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+.footer__contactsimg {
+  display: block;
+}
+.footer__contactparagraph {
+  font-size: 0.7rem;
+}
+.footer__social {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+.footer__socialicons {
+  display: block;
+}
+.wave {
+  position: absolute;
+  height: 115px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 115px;
+}
+.wave--1 {
+  bottom: 0;
+  background-image: url(/paginaHuddel/images/bg-section-top-mobile-1.svg);
+}
+.wave--2 {
+  top: 0;
+  background-image: url(/paginaHuddel/images/bg-section-bottom-mobile-1.svg);
+}
+.wave--3 {
+  bottom: 0;
+  background-image: url(/paginaHuddel/images/bg-section-top-mobile-2.svg);
+}
+.wave--4 {
+  top: 0;
+  background-image: url(/paginaHuddel/images/bg-section-bottom-mobile-2.svg);
+}
+.wave--5 {
+  bottom: 0;
+  background-image: url(/paginaHuddel/images/bg-footer-top-mobile.svg);
+}
+@media (min-width: 750px) {
+  .hero__navimg {
+    width: 12rem;
+  }
+  .hero__navbtn {
+    font-size: 0.8rem;
+    padding: 8px 30px;
+    border-radius: 40px;
+  }
+  .hero__title {
+    font-size: 2.25rem;
+  }
+  .hero__paragraph {
+    width: 33rem;
+    font-size: 1.1rem;
+  }
+  .hero__bottom {
+    font-size: 1rem;
+    padding: 30px 100px;
+    border-radius: 50px;
+  }
+  .hero__rating {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .hero__ratingnum {
+    font-size: 5rem;
+  }
+
+  .main__services {
+    text-align: start;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+  }
+  .main__services--white {
+    flex-flow: row wrap;
+  }
+  .main__services--white2 {
+    flex-flow: column wrap;
+  }
+  .main__servicestitle {
+    font-size: 2rem;
+  }
+  .footer__section {
+    flex-flow: row-reverse wrap;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .footer__text {
+    flex-basis: 23%;
+  }
+  .footer__title {
+    padding-bottom: 0rem;
+  }
+  .wave--1 {
+    bottom: 0;
+    background-image: url(/paginaHuddel/images/bg-section-top-desktop-1.svg);
+  }
+  .wave--2 {
+    top: 0;
+    background-image: url(/paginaHuddel/images/bg-section-bottom-desktop-1.svg);
+  }
+  .wave--3 {
+    bottom: 0;
+    background-image: url(/paginaHuddel/images/bg-section-top-desktop-2.svg);
+  }
+  .wave--4 {
+    top: 0;
+    background-image: url(/paginaHuddel/images/bg-section-bottom-desktop-2.svg);
+  }
+  .wave--5 {
+    bottom: 0;
+    background-image: url(/paginaHuddel/images/bg-footer-top-desktop.svg);
+  }
+}
