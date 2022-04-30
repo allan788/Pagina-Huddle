@@ -225,8 +225,7 @@ h4 {
 }
 .wave--1 {
   bottom: 0;
-  background-image: url(  background-image: url(./images/bg-section-bottom-mobile-2.svg);
-/images/bg-section-top-mobile-1.svg);
+  background-image: url(./images/bg-section-top-mobile-1.svg);
 }
 .wave--2 {
   top: 0;
