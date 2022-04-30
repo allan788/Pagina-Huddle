@@ -225,23 +225,24 @@ h4 {
 }
 .wave--1 {
   bottom: 0;
-  background-image: url(/paginaHuddel/images/bg-section-top-mobile-1.svg);
+  background-image: url(Pagina-Huddle/images/bg-section-top-mobile-1.svg);
 }
 .wave--2 {
   top: 0;
-  background-image: url(/paginaHuddel/images/bg-section-bottom-mobile-1.svg);
+  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-1.svg);
 }
 .wave--3 {
   bottom: 0;
-  background-image: url(/paginaHuddel/images/bg-section-top-mobile-2.svg);
+  background-image: url(Pagina-Huddle/images/bg-section-top-mobile-2.svg);
 }
 .wave--4 {
   top: 0;
-  background-image: url(/paginaHuddel/images/bg-section-bottom-mobile-2.svg);
+  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
 }
 .wave--5 {
   bottom: 0;
-  background-image: url(/paginaHuddel/images/bg-footer-top-mobile.svg);
+  background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-footer-top-mobile.svg);
 }
 @media (min-width: 750px) {
   .hero__navimg {
@@ -299,22 +300,27 @@ h4 {
   }
   .wave--1 {
     bottom: 0;
-    background-image: url(/paginaHuddel/images/bg-section-top-desktop-1.svg);
+    background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-section-top-desktop-1.svg);
   }
   .wave--2 {
     top: 0;
-    background-image: url(/paginaHuddel/images/bg-section-bottom-desktop-1.svg);
+    background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-section-bottom-desktop-1.svg);
   }
   .wave--3 {
     bottom: 0;
-    background-image: url(/paginaHuddel/images/bg-section-top-desktop-2.svg);
+    background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-section-top-desktop-2.svg);
   }
   .wave--4 {
     top: 0;
-    background-image: url(/paginaHuddel/images/bg-section-bottom-desktop-2.svg);
+    background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-section-bottom-desktop-2.svg);
   }
   .wave--5 {
     bottom: 0;
-    background-image: url(/paginaHuddel/images/bg-footer-top-desktop.svg);
+    background-image: url(  background-image: url(Pagina-Huddle/images/bg-section-bottom-mobile-2.svg);
+/images/bg-footer-top-desktop.svg);
   }
 }
